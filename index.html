@@ -19,13 +19,28 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mina  -  Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
 </head>
 <body>
-    <header>
+    <nav class="outer-nav">
+        <p>Software Engineer   |   Full Stack Developer</p>
+    </nav>
+    <nav class="navbar">
+        <ul>
+            <li><div class="logo"><a href="file:///C:/Users/mizo2/Downloads/MyPortfolioProject/index.html">Portfo<span>lio.</span></a></div></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
         <div class="container">
         <h1>Mina</h1>
         <img src="./assets/images/MyPic.jpg" height="200" width="170" alt="My Picture">
-        <p>Software Engineer | Full Stack Developer</p>
         </div>
     </header>
     <main>
@@ -44,7 +59,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
-               <div class="project-card">
+                <div class="project-card">
                     <h3>Project 1 - Mina-YellowPages</h3>
                     <h4>Description of Project 1 And Technologies Used</h4>
                     <p>    
@@ -57,7 +72,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
                         <li>HTML</li>
                         <li>CSS</li>
                      </ol>
-                    <img src="./assets/images/YelloPageMina.png" height="200" width="600">
+                    <img src="./assets/images/YelloPageMina.png" height="200" width="400">
                 </div>
                 <div class="project-card">
                     <h3>Project 2 - Ticketing System</h3>
@@ -69,7 +84,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
                         <li>HTML</li>
                         <li>CSS</li>
                      </ol>
-                    <img src="./assets/images/ticketing-system.png" height="200" width ="600" alt="">    
+                    <img src="./assets/images/ticketing-system.png" height="200" width ="400" alt="">    
                 </div>
             </div>
         </section>
@@ -94,20 +109,20 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         <hr />
         <section id="Employment">
             <div class="container">
-                <h2>Work History</h2>
+                <h2>Employment</h2>
                 <ul>
                     <li>
                         <h3>Intern Junior Software Developer - Internet Brands, Inc</h3>
                         <p>August 2022 - October 2022</p>
                         <ul>
-                        <li>Resolved bugs and issues, ensuring smooth software performance.</li>
-                        <li>Assisted senior engineers in developing and
+                            <li>Resolved bugs and issues, ensuring smooth software performance.</li>
+                            <li>Assisted senior engineers in developing and
                             testing software applications.</li>
-                          <li>Collaborated with cross-functional teams to
+                            <li>Collaborated with cross-functional teams to
                             gather requirements and define project goals.</li>
-                         <li>Participated in code reviews and contributed
+                            <li>Participated in code reviews and contributed
                             to continuous improvement of code quality.</li>
-                           <li>Applied effective time management
+                            <li>Applied effective time management
                             techniques to meet tight deadlines.</li>
                         </ul>
                     </li>
@@ -153,42 +168,43 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         </section>
         <hr />
         <section id="skills">
-            <div class="skills">
+            <div class="container">
                 <h2>Skills</h2>
                 <ul>
                     <li>
                         Programming Languages:
                         <ul>
-                            <li>Java       ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>Python     ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>C          ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>C#         ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>JavaScript ⭐️⭐️⭐️⭐️</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
                         </ul>
                     </li>
                     <li>
                         Technologies and Frameworks:
                         <ul>
-                            <li>HTML        ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>CSS         ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>React       ⭐️⭐️⭐️⭐️</li>
-                            <li>Spring Boot ⭐️⭐️⭐️⭐️⭐️</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React</li>
+                            <li>Spring Boot</li>
                         </ul>
                     </li>
                     <li>
                         Software Deployment:
                         <ul>
-                            <li>Agile Methodologies ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>Debugging           ⭐️⭐️⭐️⭐️</li>
-                            <li>Testing             ⭐️⭐️⭐️⭐️⭐️</li>
+                            <li>Agile Methodologies</li>
+                            <li>Debugging</li>
+                            <li>Testing</li>
                         </ul>
                     </li>
                     <li>
                         Software Deployment Tools:
                         <ul>
-                            <li>Visual Studio Code ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>Eclipse            ⭐️⭐️⭐️⭐️⭐️</li>
-                            <li>Github             ⭐️⭐️⭐️⭐️⭐️</li>
+                            <li>Visual Studio Code</li>
+                            <li>Eclipse</li>
+                            <li>Github</li>
                         </ul>
                     </li>
                 </ul>
