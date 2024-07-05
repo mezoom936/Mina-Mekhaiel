@@ -85,6 +85,7 @@ body, h1, h2, h3, p, ul, li {
   /* Styling sections */
   section {
     padding: 3rem 0;
+    height: 100vh;
   }
   #projects{
     background-color: #3b3b3e;
