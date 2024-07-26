@@ -455,7 +455,7 @@ nav .fa-solid{
       width: 100%; 
     }
     .about-col-1 img{
-      margin-left: 30px;
+      margin-left: 40px;
     }
     .about-col-2{
       display: block;
@@ -555,6 +555,8 @@ nav .fa-solid{
     .project-album {
       flex-direction: column;
       height: 100%;
+      align-items: center;
+      justify-content: center;
     }
     #projects{
       height: fit-content;
@@ -596,7 +598,7 @@ nav .fa-solid{
       width: 100%;
     }
     footer{
-        margin-top: 60px;
+        margin-top: 65px;
     }
 
   
