@@ -472,6 +472,7 @@ nav .fa-solid{
         justify-content: center;
     }
     #projects .container{
+      display: block;
       align-items: center;
       justify-content: center;
       text-align: center;
@@ -553,7 +554,7 @@ nav .fa-solid{
       align-content: center;
     }
     footer{
-      margin-top: 65px;
+      margin-top: 70px;
     }
     
 }
