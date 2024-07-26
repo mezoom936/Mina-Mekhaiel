@@ -448,6 +448,10 @@ nav .fa-solid{
     body{
       overflow-x: hidden;
     }
+    #about .container{
+      align-items: center;
+      justify-content: center;
+    }
     .project-album {
         grid-template-columns: 1fr; /* Single column on small screens */
     }
