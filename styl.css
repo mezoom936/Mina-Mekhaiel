@@ -445,6 +445,9 @@ nav .fa-solid{
   
   /* Responsive styles */
   @media (max-width: 768px) {
+    body{
+      overflow-x: hidden;
+    }
     .project-album {
         grid-template-columns: 1fr; /* Single column on small screens */
     }
@@ -528,6 +531,9 @@ nav .fa-solid{
     
 }
 @media (max-width: 1250px) {
+    body{
+      overflow-x: hidden;
+    }
     #home h1{
         font-size: 30px;
     }
