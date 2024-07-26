@@ -469,6 +469,7 @@ nav .fa-solid{
     .project-album {
         grid-template-columns: 1fr; /* Single column on small screens */
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
     #projects .container{
