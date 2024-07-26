@@ -449,8 +449,19 @@ nav .fa-solid{
       overflow-x: hidden;
     }
     #about .container{
-      align-items: center;
+      display: block;
       justify-content: center;
+      align-items: center;
+      width: 100%; 
+    }
+    .about-col-1 img{
+      margin-left: 30px;
+    }
+    .about-col-2{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
     }
     .project-album {
         grid-template-columns: 1fr; /* Single column on small screens */
