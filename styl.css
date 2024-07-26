@@ -470,7 +470,7 @@ nav .fa-solid{
         grid-template-columns: 1fr; /* Single column on small screens */
         align-items: center;
         justify-content: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     #projects .container{
       display: block;
