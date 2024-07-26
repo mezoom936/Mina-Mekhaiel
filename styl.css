@@ -467,13 +467,10 @@ nav .fa-solid{
       width: 100%;
     }
     .project-album {
-        grid-template-columns: 1fr; /* Single column on small screens */
+        display: block; /* Single column on small screens */
         align-items: center;
-        flex-direction: column;
+/*         flex-direction: column; */
         justify-content: center;
-    }
-    .project-card{
-      margin-left: 20px;
     }
     #projects .container{
       display: block;
