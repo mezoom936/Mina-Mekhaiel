@@ -218,7 +218,7 @@ body, h1, h2, h3, p, ul, li {
       color: #3a097f;
   }
   .tab-contents ul li span{
-      color: #3a097f;
+      color: #666;
       font-size: 20px;
       margin: 10px 0;
   }
