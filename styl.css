@@ -471,7 +471,11 @@ nav .fa-solid{
         align-items: center;
         justify-content: center;
     }
-
+    #projects .container{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
     .project-card img {
         height: 150px; /* Adjusted for smaller screens */
     }
