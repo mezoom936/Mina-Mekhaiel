@@ -1,0 +1,258 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina  -  Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styl.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <nav class="outer-nav">
+        <p>Software Engineer</p>
+    </nav>
+    <nav class="navbar">
+        <div class="burger" id="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <ul>
+                <li><div class="logo"><a class="navbar-brand" href="index.html">Portfolio</a></div></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>   
+    </nav>
+    <header id="home">
+        <div class="container">
+            <h1>Mina Mekhaiel</h1>
+        </div>
+        <p><span class="typed" data-typed-items="Engineer, Developer"></span></p>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="row col-m-12 col-lg-12">
+                    <div class="about-col-1">
+                    <img src="./mezo.jpg" alt="Myprofile">
+                    </div>
+                    <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hello, I'm a passionate software engineer with expertise in building applications using different 
+                        programming languages. I enjoy turning ideas into functional and user-friendly
+                        software solutions. My focus is on writing clean and maintainable code while continuously learning
+                        and staying up-to-date with the latest technologies.</p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>C</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>C#</span></li>
+                            <li><span>SpringBoot</span></li>
+                            <li><span>JUnit</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Node.js</span></li>
+                            <li><span>Javascript</span></li>
+                            <li><span>Agile Methodologies</span></li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Aug 2022  -  Oct 2022</span>
+                                <br>
+                                <h3>Intern Junior Software Developer   - 
+                                <a href="https://www.internetbrands.com/">  Internet Brands, Inc</a></h3>
+                            </li>
+                            <li>
+                                <span>Aug 2023  -  current</span>
+                                <br>
+                                <h3>Intern Software Engineer   - 
+                                <a href="https://techinnovators.co.in/">  Tech Innovators, Inc</a></h3>
+                            </li>  
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2015  -  2019</span>
+                                <br>
+                                <h3>MT.SAN ANTONIO COLLEGE</h3>
+                                <h3>A.S Emphasis in Mathematics</h3> 
+                            </li>
+                            <li>
+                                <span>2020  -  2024</span>
+                                <br>
+                                <h3>CAL STATE LA</h3>
+                                <h3>B.S of Science in Computer Science</h3> 
+                            </li>  
+                        </ul>
+                        </div>
+                    </div>  
+                </div>
+                </div>   
+          </section>
+        <hr />
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-album">
+                  <!-- Project 1 -->
+                  <div class="project-card">
+                    <img src="path_to_project_image.jpg" alt="Project 1 Image">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of Project 1...</p>
+                  </div>
+                  <!-- Project 2 -->
+                  <div class="project-card">
+                    <img src="path_to_project_image.jpg" alt="Project 2 Image">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of Project 2...</p>
+                  </div>
+                  <!-- Project 3 -->
+                  <div class="project-card">
+                    <img src="path_to_project_image.jpg" alt="Project 2 Image">
+                    <h3>Project Title 3</h3>
+                    <p>Short description of Project 3...</p>
+                  </div>
+                  <!-- Project 4 -->
+                  <div class="project-card">
+                    <img src="path_to_project_image.jpg" alt="Project 2 Image">
+                    <h3>Project Title 4</h3>
+                    <p>Short description of Project 4...</p>
+                  </div>
+                  <!-- Project 5 -->
+                  <div class="project-card">
+                    <img src="path_to_project_image.jpg" alt="Project 2 Image">
+                    <h3>Project Title 5</h3>
+                    <p>Short description of Project 5...</p>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <hr />
+        <section id="contact">
+            <h2 class="sub-title">Contact Me</h2>
+            <div class="container">
+                <div class="email">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <a href="mailto:minamekhaiel1@gmail.com">minamekhaiel1@gmail.com</a>
+                    <p><i class="fa-solid fa-square-phone"></i> 626-626-0602</p>
+                </div>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mina-mekhaiel/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/mezoom936"><i class="fa-brands fa-square-github"></i></a>
+              </div>
+              <a href="./Mina'sResume.docx" download class="btn btn2">Resume</a>  
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <br>
+                    <span id="msg"></span>
+                </form>
+                
+            </div>
+          </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mina Mekhaiel. All rights reserved.</p>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzca9O3botV-45EIK7kvZsk1iM11RtwEseEpw9QojKuQwIJx4QBGTjNlur_-HLSsf0F8A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message sent successfully!"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var options = {
+                strings: ["Engineer", "Developer"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true,
+                backDelay: 1000
+            };
+            
+            var typed = new Typed(".typed", options);
+        });
+    </script>
+     <script>
+        // script.js
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const burger = document.getElementById('burger');
+            const navLinks = document.getElementById('nav-links');
+            const navItems = navLinks.querySelectorAll('a'); // Get all navigation links
+
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+
+            // Add event listener to each navigation link
+            navItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    burger.classList.remove('active');
+                    navLinks.classList.remove('active');
+                });
+            });
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+       </script>
+    <script src="https://kit.fontawesome.com/d43d5c0b07.js" crossorigin="anonymous"></script> 
+</body>
+</html>
