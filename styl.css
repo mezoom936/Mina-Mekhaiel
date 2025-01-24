@@ -162,10 +162,13 @@ body, h1, h2, h3, p, ul, li {
     
   }
   @media (max-width: 480px) {
+    .sector{
+      margin-top: 2rem;
+    }
     .outer-c {
         padding: 0.5rem;
         margin: 1rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .inner-caro {
