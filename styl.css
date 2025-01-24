@@ -175,6 +175,8 @@ body, h1, h2, h3, p, ul, li {
     .inner-caro h2::after {
         width: 60%;
     }
+    footer{
+      margin-top: 
 }
   
   @media (max-width: 1100px) {
