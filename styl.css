@@ -160,7 +160,7 @@ body, h1, h2, h3, p, ul, li {
     .outer-c {
         padding: 0.5rem;
         margin: 1rem;
-        margin-top: 10rem;
+        margin-top: 6rem;
     }
 
     .inner-caro {
@@ -592,7 +592,6 @@ nav .fa-solid{
     }
     .project-album {
         display: flex;
-/*         grid-template-columns: 1fr; */
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -686,7 +685,7 @@ nav .fa-solid{
       align-content: center;
     }
     footer{
-      margin-top: 5rem;
+      margin-top: 8rem;
     }
     
 }
@@ -746,6 +745,6 @@ nav .fa-solid{
       width: 100%;
     }
     footer{
-        margin-top: 65px;
+        margin-top: 5rem;
     }
   }
