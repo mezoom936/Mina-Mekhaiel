@@ -176,7 +176,8 @@ body, h1, h2, h3, p, ul, li {
         width: 60%;
     }
     footer{
-      margin-top: 
+      margin-top: 5rem;
+    }
 }
   
   @media (max-width: 1100px) {
