@@ -134,7 +134,7 @@ body, h1, h2, h3, p, ul, li {
   .sector{
     padding: 1rem 0;
     height: 100vh;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   @media (max-width: 768px) {
     .outer-c{
